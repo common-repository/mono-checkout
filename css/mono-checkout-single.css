@@ -1,0 +1,6 @@
+form.checkout.woocommerce-checkout {
+    display:none !important;
+}
+.wc-proceed-to-checkout {
+    display:none;
+}

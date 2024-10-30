@@ -1,0 +1,490 @@
+# Copyright (C) 2023 Automattic - Anti Spam Team
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: monobank checkout 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mono\n"
+"Last-Translator: \n"
+"Language-Team: Українська\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-10-25T00:58:42+03:00\n"
+"PO-Revision-Date: 2024-07-29 08:25+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: mono\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Loco-Version: 2.6.6; wp-6.3.2"
+
+#: includes/class.gateway.php:427
+msgid ""
+"<strong>Important:</strong> mono checkout does not support orders with "
+"coupons."
+msgstr ""
+"<strong>Важливо:</strong> mono чекаут не підтримує замовлення з купонами."
+
+#: includes/class.mono.php:163 includes/class.mono.php:164
+msgid "API answer"
+msgstr "Відповідь API"
+
+#: includes/class.gateway.php:215
+#| msgid ""
+#| "API token from monopay. Get your token at <a href=\"https://web.monobank."
+#| "ua/\" target=\"_blank\">web.monobank.ua</a>"
+msgid ""
+"API token from mono checkout. Get your token at <a href=\"https://web."
+"monobank.ua/\" target=\"_blank\">web.monobank.ua</a>"
+msgstr ""
+"API токен від mono checkout. Отримайте свій токен на <a href=\"https://web."
+"monobank.ua/\" target=\"_blank\">web.monobank.ua</a>"
+
+#: includes/class.gateway.php:306
+msgid "Base URL"
+msgstr "Базовий URL"
+
+#: includes/class.gateway.php:308
+msgid "Base URL for mono checkout API."
+msgstr "Базовий URL для API mono checkout"
+
+#: includes/class.gateway.php:274
+msgid "Button style"
+msgstr "Стиль кнопки"
+
+#: templates/base_button.php:5
+msgid "Buy with mono checkout"
+msgstr "Оформити через mono checkout"
+
+#: includes/class.gateway.php:92
+msgid "Call client"
+msgstr "Передзвонити клієнту"
+
+#: includes/class.gateway.php:341
+msgid "Card"
+msgstr "Картка"
+
+#: includes/class.gateway.php:270
+msgid "Cart button height (px)"
+msgstr "Висота кнопки в кошику (px)"
+
+#: includes/class.gateway.php:266
+msgid "Cart button width (px)"
+msgstr "Ширина кнопки в кошику (px)"
+
+#: includes/class.gateway.php:446 includes/class.gateway.php:624
+msgid "Check your mono checkout Token."
+msgstr "Будь-ласка, перевірте Токен чекауту для Вашого магазину."
+
+#: includes/class.gateway.php:242
+msgid "Checkout button height (px)"
+msgstr "Висота кнопки на чекауті (px)"
+
+#: includes/class.gateway.php:238
+msgid "Checkout button width (px)"
+msgstr "Ширина кнопки на чекауті (px)"
+
+#: includes/class.gateway.php:227
+msgid "Checkout description"
+msgstr "Опис"
+
+#: includes/class.gateway.php:452 includes/class.gateway.php:647
+msgid "Checkout is disabled in your account."
+msgstr "Чекаут відключений у Вашому аккаунті."
+
+#: includes/class.gateway.php:111
+msgid "City"
+msgstr "Місто"
+
+#: includes/class.gateway.php:99
+msgid "Comments"
+msgstr "Коментар"
+
+#: includes/class.gateway.php:110 includes/class.gateway.php:112
+msgid "copy code"
+msgstr "скопіювати код"
+
+#: includes/class.gateway.php:332
+msgid "Courier"
+msgstr "Кур'єр"
+
+#: includes/class.gateway.php:642
+msgid "Delivery method \"%s\" is not available for your store."
+msgstr "Спосіб доставки \"%s\" недоступний для Вашого магазину."
+
+#: includes/class.gateway.php:450
+msgid "Delivery method X is not available for your store."
+msgstr "Спосіб доставки X недоступний для Вашого магазину."
+
+#: includes/class.gateway.php:280
+msgid "Delivery options"
+msgstr "Методи доставки"
+
+#: includes/class.gateway.php:260
+msgid "Enable in cart"
+msgstr "Відобразити в кошику"
+
+#: includes/class.gateway.php:207
+msgid "Enable module"
+msgstr "Активувати модуль"
+
+#: includes/class.gateway.php:232
+msgid "Enable on checkout"
+msgstr "Відобразити на чекауті"
+
+#: includes/class.gateway.php:246
+msgid "Enable on product details"
+msgstr "Відобразити на деталях продукту"
+
+#: includes/class.gateway.php:444 includes/class.gateway.php:619
+msgid "Fill in your mono checkout Token."
+msgstr "Будь-ласка, заповніть Токен чекауту для Вашого магазину."
+
+#: includes/class.gateway.php:287
+msgid "Free delivery from"
+msgstr "Безкоштовна доставка від"
+
+#: includes/class.gateway.php:290
+msgid "Free delivery from this order subtotal. Empty for paid delivery."
+msgstr ""
+"Безкоштовна доставка від цієї суми замовлення. Залиште пустим для платної "
+"доставки."
+
+#: includes/class.gateway.php:442
+msgid "Frequent errors"
+msgstr "Часті помилки"
+
+#: templates/button_error.php:4
+msgid "General error"
+msgstr "Загальна помилка"
+
+#: includes/class.gateway.php:392
+msgid "Get your monobank app now:"
+msgstr "Скачайте додаток monobank"
+
+#: includes/class.gateway.php:20
+msgid "Go to mono checkout"
+msgstr "Перейти до mono checkout"
+
+#. Plugin URI of the plugin
+msgid "https://checkout.mono.bank/woocomerce"
+msgstr "https://checkout.mono.bank/woocomerce"
+
+#. Author URI of the plugin
+msgid "https://monobank.ua/"
+msgstr "https://monobank.ua/"
+
+#: templates/base_button.php:25
+msgid "Loading..."
+msgstr "Завантаження"
+
+#. Plugin Name of the plugin
+#| msgid "monobank checkout"
+msgid "mono checkout"
+msgstr "Оформлення через mono checkout"
+
+#: includes/class.gateway.php:689
+#| msgid ""
+#| "monopay declined order: %1$s (code: %2$s)<br/><a class=\"mono-code-"
+#| "toggle\">API answer</a><pre class=\"mono-api-answer\">%3$s</pre>"
+msgid ""
+"mono checkout declined order: %1$s (code: %2$s)<br/><a class=\"mono-code-"
+"toggle\">API answer</a><pre class=\"mono-api-answer\">%3$s</pre>"
+msgstr ""
+"mono checkout відхилив замовлення: %1$s (code: %2$s)<br/><a class=\"mono-"
+"code-toggle\">Відповідь API</a><pre class=\"mono-api-answer\">%3$s</pre>"
+
+#: includes/class.gateway.php:672
+#| msgid ""
+#| "monopay declined order: %1$s<br/><a class=\"mono-code-toggle\">API "
+#| "answer</a><pre class=\"mono-api-answer\">%2$s</pre>"
+msgid ""
+"mono checkout declined order: %1$s<br/><a class=\"mono-code-toggle\">API "
+"answer</a><pre class=\"mono-api-answer\">%2$s</pre>"
+msgstr ""
+"mono checkout відхилив замовлення: %1$s<br/><a class=\"mono-code-toggle\">"
+"Відповідь API</a><pre class=\"mono-api-answer\">%2$s</pre>"
+
+#: includes/class.mono.php:337
+msgid "mono checkout does not support order with coupons"
+msgstr "mono чекаут не підтримує замовлення з купонами"
+
+#: includes/class.gateway.php:766
+#| msgid ""
+#| "monopay status update:<strong>%1$s</strong><br/><a class=\"mono-code-"
+#| "toggle\">API answer</a><pre class=\"mono-api-answer\">%2$s</pre>"
+msgid ""
+"mono checkout status update:<strong>%1$s</strong><br/><a class=\"mono-code-"
+"toggle\">API answer</a><pre class=\"mono-api-answer\">%2$s</pre>"
+msgstr ""
+"mono checkout статус:<strong>%1$s</strong><br/><a class=\"mono-code-toggle\">"
+"Відповідь API</a><pre class=\"mono-api-answer\">%2$s</pre>"
+
+#: includes/class.mono.php:219
+msgid ""
+"mono checkout: Please, enable <code>allow_url_fopen</code> setting in PHP "
+"configuration (<a href=\"https://chemicloud.com/kb/article/how-to-enable-or-"
+"disable-allow_url_fopen-in-cpanel/\" target=\"_blank\">cPanel manual</a>)"
+msgstr ""
+"mono checkout: Будь-ласка, активуйте опцію <code>allow_url_fopen</code> в "
+"налаштуваннях PHP (<a href=\"https://chemicloud.com/kb/article/how-to-enable-"
+"or-disable-allow_url_fopen-in-cpanel/\" target=\"_blank\">інструкція для "
+"cPanel</a>)"
+
+#: includes/class.gateway.php:707
+msgid ""
+"mono ID: <strong>%1$s</strong><br/><a href=\"%2$s\" target=\"_blank\">"
+"Checkout link</a><br/><a class=\"mono-code-toggle\">API answer</a><pre "
+"class=\"mono-api-answer\">%3$s</pre>"
+msgstr ""
+"mono ID: <strong>%1$s</strong><br/><a href=\"%2$s\" target=\"_blank\">"
+"Посилання на оплату</a><br/><a class=\"mono-code-toggle\">Відповідь API</a>"
+"<pre class=\"mono-api-answer\">%3$s</pre>"
+
+#: includes/class.mono.php:221
+msgid "mono requires Woocommerce to be activated. Plugin features are paused."
+msgstr ""
+"Необзхідно встановити та активувати Woocommerce, щоб запрацював monopay. "
+"Робота плагіну призупинена."
+
+#. Author of the plugin
+msgid "monobank"
+msgstr "monobank"
+
+#: includes/class.gateway.php:387
+msgid ""
+"More details on <a href=\"https://www.monobank.ua/\" target=\"_blank\">"
+"monobank.ua</a>"
+msgstr ""
+"Більше деталей на <a href=\"https://www.monobank.ua/\" target=\"_blank\">"
+"monobank.ua</a>"
+
+#: includes/class.gateway.php:621 includes/class.gateway.php:626
+#: includes/class.gateway.php:635 includes/class.gateway.php:644
+#: includes/class.gateway.php:649
+msgid "More info"
+msgstr "Детальніше"
+
+#: includes/class.gateway.php:383
+msgid "Need help? Check out our FAQ or contact our support."
+msgstr "Потрібна допомога? Подивіться наші ЧаПи або зверніться до підтримки."
+
+#: includes/class.gateway.php:92
+msgid "No"
+msgstr "Ні"
+
+#: includes/class.gateway.php:51 includes/class.gateway.php:82
+msgid "Not authorized"
+msgstr "Не авторизоване"
+
+#: includes/class.gateway.php:56
+msgid "Not authorized <span class=\"count\">(%s)</span>"
+msgstr "Не авторизоване <span class=\"count\">(%s)</span>"
+
+#: includes/class.gateway.php:59 includes/class.gateway.php:83
+msgid "Not confirmed"
+msgstr "Не підтверджене"
+
+#: includes/class.gateway.php:64
+msgid "Not confirmed <span class=\"count\">(%s)</span>"
+msgstr "Не підтверджене <span class=\"count\">(%s)</span>"
+
+#: includes/class.gateway.php:333
+msgid "Nova Poshta"
+msgstr "Нова Пошта"
+
+#: includes/class.gateway.php:334
+msgid "NP Postbox"
+msgstr "Поштомат НП"
+
+#: includes/class.gateway.php:300
+msgid "Number of payments"
+msgstr "Кількість платежів"
+
+#: includes/class.gateway.php:303
+msgid "Number of payments for Purchase in parts."
+msgstr "Кількість платежів в покупці частинами"
+
+#: includes/class.gateway.php:220
+msgid "Order prefix"
+msgstr "Префікс замовлення"
+
+#: includes/class.gateway.php:652 includes/class.gateway.php:668
+#: includes/class.gateway.php:685
+msgid "Payment error: %s"
+msgstr "Помилка платежу: %s"
+
+#: includes/class.gateway.php:633
+msgid "Payment method \"%s\" is not available for your store."
+msgstr "Платіжний метод \"%s\" недоступний для Вашого магазину."
+
+#: includes/class.gateway.php:448
+msgid "Payment method X is not available for your store."
+msgstr "Платіжний метод X недоступний для Вашого магазину."
+
+#: includes/class.gateway.php:293
+msgid "Payment methods"
+msgstr "Платіжні методи"
+
+#: includes/class.gateway.php:67 includes/class.gateway.php:84
+#: includes/class.gateway.php:342
+msgid "Payment on delivery"
+msgstr "Оплата при отриманні"
+
+#: includes/class.gateway.php:72
+msgid "Payment on delivery <span class=\"count\">(%s)</span>"
+msgstr "Оплата при отриманні <span class=\"count\">(%s)</span>"
+
+#: includes/class.gateway.php:359
+msgid "Pending payment"
+msgstr "Очікування оплати"
+
+#: includes/class.gateway.php:331
+msgid "Pickup"
+msgstr "Самовивіз"
+
+#: includes/class.gateway.php:451
+msgid ""
+"Please, contact our support at <a href=\"https://web.monobank.ua\" "
+"target=\"_blank\">web.monobank.ua</a> to enable corresponding delivery "
+"method for your account. You can disable it temporarily to keep using mono "
+"checkout."
+msgstr ""
+"Будь-ласка, зверніться до підтримки на сайті <a href=\"https://web.monobank."
+"ua\" target=\"_blank\">web.monobank.ua</a>, щоб активувати відповідний "
+"спосіб доставки для Вашого аккаунту. Тим часом Ви можете відключити цю опцію "
+"в налаштуваннях чекауту."
+
+#: includes/class.gateway.php:449
+#| msgid ""
+#| "Please, contact our support at <a href=\"https://web.monobank.ua\" "
+#| "target=\"_blank\">web.monobank.ua</a> to enable part purchase for your "
+#| "account. You can disable it temporarily to keep using mono checkout."
+msgid ""
+"Please, contact our support at <a href=\"https://web.monobank.ua\" "
+"target=\"_blank\">web.monobank.ua</a> to enable corresponding payment method "
+"for your account. You can disable it temporarily to keep using mono checkout."
+msgstr ""
+"Будь-ласка, зверніться до підтримки на сайті <a href=\"https://web.monobank."
+"ua\" target=\"_blank\">web.monobank.ua</a>, щоб активувати відповідний "
+"платіжний метод для Вашого аккаунту. Тим часом Ви можете відключити цю опцію "
+"в налаштуваннях чекауту."
+
+#: includes/class.gateway.php:453
+msgid ""
+"Please, enable your checkout in your account at <a href=\"https://web."
+"monobank.ua\" target=\"_blank\">web.monobank.ua</a>"
+msgstr ""
+"Будь-ласка, ввімкніть чекаут у Вашому аккаунті на <a href=\"https://web."
+"monobank.ua\" target=\"_blank\">web.monobank.ua</a>"
+
+#: includes/class.gateway.php:445
+msgid ""
+"Please, get your token at <a href=\"https://web.monobank.ua\" "
+"target=\"_blank\">web.monobank.ua</a>"
+msgstr ""
+"Ви можете отримати Токен чекауту на сайті <a href=\"https://web.monobank."
+"ua\" target=\"_blank\">web.monobank.ua</a>"
+
+#: includes/class.gateway.php:447
+msgid ""
+"Please, make sure you used correct token from <a href=\"https://web.monobank."
+"ua\" target=\"_blank\">web.monobank.ua</a>"
+msgstr ""
+"Будь-ласка, перевірте, що використовуєте правильно Токен чекауту з сайту <a "
+"href=\"https://web.monobank.ua\" target=\"_blank\">web.monobank.ua</a>"
+
+#: includes/class.gateway.php:222
+msgid "Prepended to order numbers to distinguish between different stores."
+msgstr ""
+"Додається до номеру замовлення, щоб розрізняти замовлення з різних магазинів"
+
+#: includes/class.gateway.php:256
+msgid "Product details button height (px)"
+msgstr "Висота кнопки на деталях продукту (px)"
+
+#: includes/class.gateway.php:252
+msgid "Product details button width (px)"
+msgstr "Ширина кнопки на деталях продукту (px)"
+
+#: includes/class.gateway.php:343
+msgid "Purchase in parts"
+msgstr "Покупка частинами"
+
+#: includes/class.gateway.php:109
+msgid "Region"
+msgstr "Область"
+
+#: includes/class.gateway.php:431
+msgid "Settings"
+msgstr "Налаштування"
+
+#: includes/class.gateway.php:412
+msgid "Statuses of mono checkout orders:"
+msgstr "Статуси замовлень mono checkout:"
+
+#: includes/class.gateway.php:138 includes/class.gateway.php:617
+msgid "Technical error"
+msgstr "Технічна помилка"
+
+#: includes/class.mono.php:418
+msgid "This payment method is not applicable to orders with coupons."
+msgstr "Цей платіжний метод не підтримує замовлення з купонами."
+
+#: includes/class.gateway.php:386
+msgid ""
+"To get token, please, send request in your monobank app and then visit <a "
+"href=\"https://web.monobank.ua/\" target=\"_blank\">web.monobank.ua</a>"
+msgstr ""
+"Щоб отримати токен, будь-ласка, скористайтесь Вашим додатком monobank, а "
+"потім перейдіть на <a href=\"https://web.monobank.ua/\" target=\"_blank\">"
+"web.monobank.ua</a>"
+
+#: includes/class.gateway.php:213
+msgid "Token"
+msgstr "Токен"
+
+#: includes/class.gateway.php:120 includes/class.gateway.php:159
+msgid "Update payment status"
+msgstr "Оновити статус платежу"
+
+#: includes/class.gateway.php:284 includes/class.gateway.php:297
+msgid "Use Ctrl for multiple choices"
+msgstr "Натисніть Ctrl, щоб обрати декілька варіантів"
+
+#: includes/class.gateway.php:656
+#| msgid ""
+#| "Wrong answer from monopay.<br/><a class=\"mono-code-toggle\">API "
+#| "answer</a><pre class=\"mono-api-answer\">%s</pre>"
+msgid ""
+"Wrong answer from mono checkout.<br/><a class=\"mono-code-toggle\">API "
+"answer</a><pre class=\"mono-api-answer\">%s</pre>"
+msgstr ""
+"Некоректна відповідь від mono checkout.<br/><a class=\"mono-code-toggle\">"
+"Відповідь API</a><pre class=\"mono-api-answer\">%s</pre>"
+
+#: includes/class.gateway.php:92
+msgid "Yes"
+msgstr "Так"
+
+#: includes/class.gateway.php:388
+msgid "Your callback URL: %s"
+msgstr "Ваш URL колбеку: %s"
+
+#: includes/class.gateway.php:389
+msgid "Your return URL: %s"
+msgstr "Ваш URL після успішної оплати (return URL): %s"
+
+#. Description of the plugin
+msgid ""
+"модуль Чекауту від monobank це спосіб автоматизувати процес оформлення "
+"покупки на вашому сайті. Доступний функціонал: предзаповнення даних "
+"отримувача, рекомендації по доставці та оплаті, всі доступні способи оплати "
+"від monobank: еквайринг, Покупка частинами та оплата при отриманні. Має бути "
+"підключений інтернет-еквайринг від monobank"
+msgstr ""
+"модуль Чекауту від monobank це спосіб автоматизувати процес оформлення "
+"покупки на вашому сайті. Доступний функціонал: предзаповнення даних "
+"отримувача, рекомендації по доставці та оплаті, всі доступні способи оплати "
+"від monobank: еквайринг, Покупка частинами та оплата при отриманні. Має бути "
+"підключений інтернет-еквайринг від monobank"

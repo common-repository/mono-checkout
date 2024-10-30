@@ -1,0 +1,32 @@
+.radio_list label input {
+    display:none;
+}
+.radio_list fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.form-table td.radio_list fieldset label {
+    margin: 0 24px 16px 0 !important;
+    position:relative;
+}
+.radio_list label div {
+    border-radius:10px;
+    display:inline-block;
+    height:100%;
+    padding:0;
+    font-size:0;
+}
+.radio_list label:hover div {
+    -webkit-box-shadow: 0px 2px 12px 0px rgba(112,97,207,1);
+    -moz-box-shadow: 0px 2px 12px 0px rgba(112,97,207,1);
+    box-shadow: 0px 2px 12px 0px rgba(112,97,207,1);
+}
+.radio_list label input:checked + div {
+    -webkit-box-shadow: 0px 2px 12px 0px rgba(112,97,207,1);
+    -moz-box-shadow: 0px 2px 12px 0px rgba(112,97,207,1);
+    box-shadow: 0px 2px 12px 0px rgba(112,97,207,1);
+}
+.status-list dt {
+    font-weight:bold;
+}

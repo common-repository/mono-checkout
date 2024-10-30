@@ -1,0 +1,393 @@
+# Copyright (C) 2024 monobank
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: mono checkout 1.8.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mono\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-29T08:23:02+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: mono-checkout\n"
+
+#. Plugin Name of the plugin
+msgid "mono checkout"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://checkout.mono.bank/woocomerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "модуль Чекауту від monobank це спосіб автоматизувати процес оформлення покупки на вашому сайті. Доступний функціонал: предзаповнення даних отримувача, рекомендації по доставці та оплаті, всі доступні способи оплати від monobank: еквайринг, Покупка частинами та оплата при отриманні. Має бути підключений інтернет-еквайринг від monobank"
+msgstr ""
+
+#. Author of the plugin
+msgid "monobank"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://monobank.ua/"
+msgstr ""
+
+#: includes/class.gateway.php:20
+msgid "Go to mono checkout"
+msgstr ""
+
+#: includes/class.gateway.php:51
+#: includes/class.gateway.php:82
+msgid "Not authorized"
+msgstr ""
+
+#: includes/class.gateway.php:56
+msgid "Not authorized <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/class.gateway.php:59
+#: includes/class.gateway.php:83
+msgid "Not confirmed"
+msgstr ""
+
+#: includes/class.gateway.php:64
+msgid "Not confirmed <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/class.gateway.php:67
+#: includes/class.gateway.php:84
+#: includes/class.gateway.php:342
+msgid "Payment on delivery"
+msgstr ""
+
+#: includes/class.gateway.php:72
+msgid "Payment on delivery <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/class.gateway.php:92
+msgid "Call client"
+msgstr ""
+
+#: includes/class.gateway.php:92
+msgid "Yes"
+msgstr ""
+
+#: includes/class.gateway.php:92
+msgid "No"
+msgstr ""
+
+#: includes/class.gateway.php:99
+msgid "Comments"
+msgstr ""
+
+#: includes/class.gateway.php:109
+msgid "Region"
+msgstr ""
+
+#: includes/class.gateway.php:110
+#: includes/class.gateway.php:112
+msgid "copy code"
+msgstr ""
+
+#: includes/class.gateway.php:111
+msgid "City"
+msgstr ""
+
+#: includes/class.gateway.php:120
+#: includes/class.gateway.php:159
+msgid "Update payment status"
+msgstr ""
+
+#: includes/class.gateway.php:138
+#: includes/class.gateway.php:617
+msgid "Technical error"
+msgstr ""
+
+#: includes/class.gateway.php:207
+msgid "Enable module"
+msgstr ""
+
+#: includes/class.gateway.php:213
+msgid "Token"
+msgstr ""
+
+#: includes/class.gateway.php:215
+msgid "API token from mono checkout. Get your token at <a href=\"https://web.monobank.ua/\" target=\"_blank\">web.monobank.ua</a>"
+msgstr ""
+
+#: includes/class.gateway.php:220
+msgid "Order prefix"
+msgstr ""
+
+#: includes/class.gateway.php:222
+msgid "Prepended to order numbers to distinguish between different stores."
+msgstr ""
+
+#: includes/class.gateway.php:227
+msgid "Checkout description"
+msgstr ""
+
+#: includes/class.gateway.php:232
+msgid "Enable on checkout"
+msgstr ""
+
+#: includes/class.gateway.php:238
+msgid "Checkout button width (px)"
+msgstr ""
+
+#: includes/class.gateway.php:242
+msgid "Checkout button height (px)"
+msgstr ""
+
+#: includes/class.gateway.php:246
+msgid "Enable on product details"
+msgstr ""
+
+#: includes/class.gateway.php:252
+msgid "Product details button width (px)"
+msgstr ""
+
+#: includes/class.gateway.php:256
+msgid "Product details button height (px)"
+msgstr ""
+
+#: includes/class.gateway.php:260
+msgid "Enable in cart"
+msgstr ""
+
+#: includes/class.gateway.php:266
+msgid "Cart button width (px)"
+msgstr ""
+
+#: includes/class.gateway.php:270
+msgid "Cart button height (px)"
+msgstr ""
+
+#: includes/class.gateway.php:274
+msgid "Button style"
+msgstr ""
+
+#: includes/class.gateway.php:280
+msgid "Delivery options"
+msgstr ""
+
+#: includes/class.gateway.php:284
+#: includes/class.gateway.php:297
+msgid "Use Ctrl for multiple choices"
+msgstr ""
+
+#: includes/class.gateway.php:287
+msgid "Free delivery from"
+msgstr ""
+
+#: includes/class.gateway.php:290
+msgid "Free delivery from this order subtotal. Empty for paid delivery."
+msgstr ""
+
+#: includes/class.gateway.php:293
+msgid "Payment methods"
+msgstr ""
+
+#: includes/class.gateway.php:300
+msgid "Number of payments"
+msgstr ""
+
+#: includes/class.gateway.php:303
+msgid "Number of payments for Purchase in parts."
+msgstr ""
+
+#: includes/class.gateway.php:306
+msgid "Base URL"
+msgstr ""
+
+#: includes/class.gateway.php:308
+msgid "Base URL for mono checkout API."
+msgstr ""
+
+#: includes/class.gateway.php:331
+msgid "Pickup"
+msgstr ""
+
+#: includes/class.gateway.php:332
+msgid "Courier"
+msgstr ""
+
+#: includes/class.gateway.php:333
+msgid "Nova Poshta"
+msgstr ""
+
+#: includes/class.gateway.php:334
+msgid "NP Postbox"
+msgstr ""
+
+#: includes/class.gateway.php:341
+msgid "Card"
+msgstr ""
+
+#: includes/class.gateway.php:343
+msgid "Purchase in parts"
+msgstr ""
+
+#: includes/class.gateway.php:359
+msgid "Pending payment"
+msgstr ""
+
+#: includes/class.gateway.php:383
+msgid "Need help? Check out our FAQ or contact our support."
+msgstr ""
+
+#: includes/class.gateway.php:386
+msgid "To get token, please, send request in your monobank app and then visit <a href=\"https://web.monobank.ua/\" target=\"_blank\">web.monobank.ua</a>"
+msgstr ""
+
+#: includes/class.gateway.php:387
+msgid "More details on <a href=\"https://www.monobank.ua/\" target=\"_blank\">monobank.ua</a>"
+msgstr ""
+
+#: includes/class.gateway.php:388
+msgid "Your callback URL: %s"
+msgstr ""
+
+#: includes/class.gateway.php:389
+msgid "Your return URL: %s"
+msgstr ""
+
+#: includes/class.gateway.php:392
+msgid "Get your monobank app now:"
+msgstr ""
+
+#: includes/class.gateway.php:412
+msgid "Statuses of mono checkout orders:"
+msgstr ""
+
+#: includes/class.gateway.php:427
+msgid "<strong>Important:</strong> mono checkout does not support orders with coupons."
+msgstr ""
+
+#: includes/class.gateway.php:431
+msgid "Settings"
+msgstr ""
+
+#: includes/class.gateway.php:442
+msgid "Frequent errors"
+msgstr ""
+
+#: includes/class.gateway.php:444
+#: includes/class.gateway.php:619
+msgid "Fill in your mono checkout Token."
+msgstr ""
+
+#: includes/class.gateway.php:445
+msgid "Please, get your token at <a href=\"https://web.monobank.ua\" target=\"_blank\">web.monobank.ua</a>"
+msgstr ""
+
+#: includes/class.gateway.php:446
+#: includes/class.gateway.php:624
+msgid "Check your mono checkout Token."
+msgstr ""
+
+#: includes/class.gateway.php:447
+msgid "Please, make sure you used correct token from <a href=\"https://web.monobank.ua\" target=\"_blank\">web.monobank.ua</a>"
+msgstr ""
+
+#: includes/class.gateway.php:448
+msgid "Payment method X is not available for your store."
+msgstr ""
+
+#: includes/class.gateway.php:449
+msgid "Please, contact our support at <a href=\"https://web.monobank.ua\" target=\"_blank\">web.monobank.ua</a> to enable corresponding payment method for your account. You can disable it temporarily to keep using mono checkout."
+msgstr ""
+
+#: includes/class.gateway.php:450
+msgid "Delivery method X is not available for your store."
+msgstr ""
+
+#: includes/class.gateway.php:451
+msgid "Please, contact our support at <a href=\"https://web.monobank.ua\" target=\"_blank\">web.monobank.ua</a> to enable corresponding delivery method for your account. You can disable it temporarily to keep using mono checkout."
+msgstr ""
+
+#: includes/class.gateway.php:452
+#: includes/class.gateway.php:647
+msgid "Checkout is disabled in your account."
+msgstr ""
+
+#: includes/class.gateway.php:453
+msgid "Please, enable your checkout in your account at <a href=\"https://web.monobank.ua\" target=\"_blank\">web.monobank.ua</a>"
+msgstr ""
+
+#: includes/class.gateway.php:621
+#: includes/class.gateway.php:626
+#: includes/class.gateway.php:635
+#: includes/class.gateway.php:644
+#: includes/class.gateway.php:649
+msgid "More info"
+msgstr ""
+
+#: includes/class.gateway.php:633
+msgid "Payment method \"%s\" is not available for your store."
+msgstr ""
+
+#: includes/class.gateway.php:642
+msgid "Delivery method \"%s\" is not available for your store."
+msgstr ""
+
+#: includes/class.gateway.php:652
+#: includes/class.gateway.php:668
+#: includes/class.gateway.php:685
+msgid "Payment error: %s"
+msgstr ""
+
+#: includes/class.gateway.php:656
+msgid "Wrong answer from mono checkout.<br/><a class=\"mono-code-toggle\">API answer</a><pre class=\"mono-api-answer\">%s</pre>"
+msgstr ""
+
+#: includes/class.gateway.php:672
+msgid "mono checkout declined order: %1$s<br/><a class=\"mono-code-toggle\">API answer</a><pre class=\"mono-api-answer\">%2$s</pre>"
+msgstr ""
+
+#: includes/class.gateway.php:689
+msgid "mono checkout declined order: %1$s (code: %2$s)<br/><a class=\"mono-code-toggle\">API answer</a><pre class=\"mono-api-answer\">%3$s</pre>"
+msgstr ""
+
+#: includes/class.gateway.php:707
+msgid "mono ID: <strong>%1$s</strong><br/><a href=\"%2$s\" target=\"_blank\">Checkout link</a><br/><a class=\"mono-code-toggle\">API answer</a><pre class=\"mono-api-answer\">%3$s</pre>"
+msgstr ""
+
+#: includes/class.gateway.php:766
+msgid "mono checkout status update:<strong>%1$s</strong><br/><a class=\"mono-code-toggle\">API answer</a><pre class=\"mono-api-answer\">%2$s</pre>"
+msgstr ""
+
+#: includes/class.mono.php:163
+#: includes/class.mono.php:164
+msgid "API answer"
+msgstr ""
+
+#: includes/class.mono.php:219
+msgid "mono checkout: Please, enable <code>allow_url_fopen</code> setting in PHP configuration (<a href=\"https://chemicloud.com/kb/article/how-to-enable-or-disable-allow_url_fopen-in-cpanel/\" target=\"_blank\">cPanel manual</a>)"
+msgstr ""
+
+#: includes/class.mono.php:221
+msgid "mono requires Woocommerce to be activated. Plugin features are paused."
+msgstr ""
+
+#: includes/class.mono.php:337
+msgid "mono checkout does not support order with coupons"
+msgstr ""
+
+#: includes/class.mono.php:418
+msgid "This payment method is not applicable to orders with coupons."
+msgstr ""
+
+#: templates/base_button.php:5
+msgid "Buy with mono checkout"
+msgstr ""
+
+#: templates/base_button.php:25
+msgid "Loading..."
+msgstr ""
+
+#: templates/button_error.php:4
+msgid "General error"
+msgstr ""
